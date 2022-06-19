@@ -174,3 +174,103 @@ You should be prompted to supply a password, this should be the pass to your acc
 
 Choose **App Services** in the sidebar to the left and the choose your app in the list that appears then go to **Deployment Credentials** to change your password for deployment:<br>
 https://docs.microsoft.com/en-us/azure/app-service/app-service-deployment-credentials
+
+
+<!-- steps created demo 
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+PS E:\Github\json-server-heroku> git status
+On branch master
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   db.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS E:\Github\json-server-heroku> git add .
+PS E:\Github\json-server-heroku> git commit -m " initial commit"
+[master 00c28a1]  initial commit
+ 1 file changed, 126 insertions(+), 16 deletions(-)
+ rewrite db.json (84%)
+PS E:\Github\json-server-heroku> heroku create netmed-clone-v1-server
+ »   Warning: heroku update available from 7.53.0 to 7.60.2.
+Creating ⬢ netmed-clone-v1-server... done
+https://netmed-clone-v1-server.herokuapp.com/ | https://git.heroku.com/netmed-clone-v1-server.gitPS E:\Github\json-server-heroku> git push heroku master
+Enumerating objects: 103, done.
+Counting objects: 100% (103/103), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (61/61), done.
+Writing objects: 100% (103/103), 87.53 KiB | 43.76 MiB/s, done.
+Total 103 (delta 41), reused 99 (delta 40), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-20 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Node.js app detected
+remote:        
+remote: -----> Creating runtime environment
+remote:
+remote:        NPM_CONFIG_LOGLEVEL=error
+remote:        USE_YARN_CACHE=true
+remote:        NODE_VERBOSE=false
+remote:        NODE_ENV=production
+remote:        NODE_MODULES_CACHE=true
+remote:
+remote: -----> Installing binaries
+remote:        engines.node (package.json):  unspecified
+remote:        engines.npm (package.json):   unspecified (use default)
+remote:        engines.yarn (package.json):  unspecified (use default)
+remote:
+remote:        Resolving node version 16.x...
+remote:        Downloading and installing node 16.15.1...
+remote:        Using default npm version: 8.11.0
+remote:        Resolving yarn version 1.22.x...
+remote:        Downloading and installing yarn (1.22.18)
+remote:        Installed yarn 1.22.18
+remote:        
+remote: -----> Installing dependencies
+remote:        Installing node modules (yarn.lock)
+remote:        yarn install v1.22.18
+remote:        [1/4] Resolving packages...
+remote:        [2/4] Fetching packages...
+remote:        [3/4] Linking dependencies...
+remote:        [4/4] Building fresh packages...
+remote:        Done in 2.98s.
+remote:
+remote: -----> Build
+remote:        
+remote: -----> Pruning devDependencies
+remote:        yarn install v1.22.18
+remote:        [1/4] Resolving packages...
+remote:        [2/4] Fetching packages...
+remote:        [3/4] Linking dependencies...
+remote:        [4/4] Building fresh packages...
+remote:        warning Ignored scripts due to flag.
+remote:        Done in 0.56s.
+remote:        
+remote: -----> Caching build
+remote:        - yarn cache
+remote:        
+remote: -----> Build succeeded!
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 34.3M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://netmed-clone-v1-server.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/netmed-clone-v1-server.git
+ * [new branch]      master -> master
+PS E:\Github\json-server-heroku> 
+
+
+ -->
