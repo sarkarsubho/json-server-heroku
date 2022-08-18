@@ -362,5 +362,13 @@
       "publishedAt": "2022-06-18T00:40:19Z",
       "content": "ByBill Steigerwald, NASA Goddard Space Flight CenterJune 17, 2022\r\nAsteroid Bennus remarkable terrain. Credit: NASAs Goddard Space Flight Center\r\nAsteroid Bennus boulder-covered surface gives it prot… [+6979 chars]"
     }
+  ],
+  "empoloyees":[
+    {"name":"subhankar sarkar",
+     "age":22,
+     "gender":"male",
+     "department":"curriculam",
+     "salary":5000
+   }
   ]
 }
