@@ -428,5 +428,26 @@
 "id":8
 
 }
+  ],
+
+  "login": [
+    {
+      "email": "abc@mail.com",
+      "password": "asx@3#"
+    }
+  ],
+  "signup": [
+    {
+      "name": "subhankar",
+      "email": "abc@mail.com",
+      "password": "asx@3#"
+    }
+  ],
+  "posts": [
+    {
+     "user":"subhankar",
+     "message":"hello",
+     "post": ""
+    }
   ]
 }
