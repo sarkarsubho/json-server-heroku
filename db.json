@@ -572,5 +572,259 @@
     }
 
     
+  ],
+  "patient": [
+    {
+      "id": 1, 
+      "name": "subhankar sarkar", 
+      "age": 12, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 2, 
+      "name": "subhankar sarkar", 
+      "age": 21, 
+      "gender": "Female", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 3, 
+      "name": "subhankar sarkar", 
+      "age": 20, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 4, 
+      "name": "subhankar sarkar", 
+      "age": 25, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 5, 
+      "name": "subhankar sarkar", 
+      "age": 29, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 6, 
+      "name": "subhankar sarkar", 
+      "age": 24, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 7, 
+      "name": "subhankar sarkar", 
+      "age": 29, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 8, 
+      "name": "subhankar sarkar", 
+      "age": 24, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 9, 
+      "name": "subhankar sarkar", 
+      "age": 29, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 10, 
+      "name": "subhankar sarkar", 
+      "age": 24, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 11, 
+      "name": "subhankar sarkar", 
+      "age": 29, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    },
+    {
+      "id": 12, 
+      "name": "subhankar sarkar", 
+      "age": 24, 
+      "gender": "Male", 
+      "medecines": [ 
+        { 
+          "name":"Paracitamal",
+          "qnt" :12
+        } ,
+        { 
+          "name":"cofsiref",
+          "qnt" :6
+        },
+        { 
+          "name":"animod",
+          "qnt" :10
+        }  
+
+      ] 
+    }
   ]
 }
